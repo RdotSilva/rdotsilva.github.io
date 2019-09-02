@@ -4,7 +4,7 @@
 	$message = $_POST["message"];
 	 
 	$EmailTo = "ryandotsilva@gmail.com"; // change with your email
-	$Subject = "Portfolio Inquiry";
+	$Subject = "Portfolio CV/Resume";
 	 
 	// prepare email body text
 	
