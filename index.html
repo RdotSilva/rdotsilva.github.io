@@ -53,6 +53,9 @@
             gtag('config', 'UA-147089742-1');
         </script>
 
+        <!--Google reCAPTCHA-->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
         
     </head>
     <body class="dark-vertion black-bg">
@@ -1073,6 +1076,9 @@
                                                 <button type="submit" value="send" class="btn btn-fill btn-block" id="form-submit">Send Message</button>
                                                 <p class="sendpoint">Form powered by <a href="https://sendpoint.io/">sendpoint</a></p>
                                             </div>
+                                            <form action="?" method="POST">
+                                                <div class="g-recaptcha" data-sitekey="6LfWguAUAAAAADVd7oK-K7SfQ3DTHAO-MYt8NHhP"></div>
+                                            </form>
                                         </div>
                                     </form>
                                 </div>
